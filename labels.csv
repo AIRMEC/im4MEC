@@ -1,0 +1,10 @@
+slide_id,class,fold-0,fold-1,fold-2,fold-3,label
+1_HE,p53,training,training,validation,training,3
+2_HE,NSMP,validation,training,training,training,0
+3_HE,NSMP,training,training,validation,training,0
+4_HE,MMRd,training,training,training,validation,1
+5_HE,POLEmut,training,training,training,validation,2
+6_HE,MMRd,training,validation,training,training,1
+7_HE,p53,validation,training,training,training,3
+9_HE,NSMP,training,validation,training,training,0
+10_HE,NSMP,training,validation,training,training,0
