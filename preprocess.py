@@ -183,9 +183,6 @@ def create_tissue_tiles(
 
     mpp_x = float(wsi.properties[openslide.PROPERTY_NAME_MPP_X])
     mpp_y = float(wsi.properties[openslide.PROPERTY_NAME_MPP_Y])
-
-    # For larger tiles in micron, NKI scanner outputs mppx slight different than mppy.
-    # Force tiles to be squared.
     mpp_scale_factor = min(mpp_x, mpp_y)
     if mpp_x != mpp_y:
         print(
