@@ -1,5 +1,5 @@
 # im4MEC
-Code for the **im4MEC** model described in the (preprint) paper 'Interpretable Deep Learning Predicts the Molecular Endometrial Cancer Classification from H&E Images: A Combined Analysis of the PORTEC Randomized Clinical Trials' (submitted).
+Code for the **im4MEC** model described in the ([preprint](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4144537)) 'Interpretable Deep Learning Predicts the Molecular Endometrial Cancer Classification from H&E Images: A Combined Analysis of the PORTEC Randomized Clinical Trials' (submitted).
 
 # Install dependencies
 Due to issues with OpenSlide dependencies ([like this one with pixman](https://github.com/mahmoodlab/CLAM/issues/13#issuecomment-690327553)) it is recommended to install the project's dependencies using the conda `environment.yml` rather than individually `pip install`-ing the dependencies.
