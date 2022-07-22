@@ -2,6 +2,8 @@
 Code for the **im4MEC** model described in the ([preprint](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4144537)) 'Interpretable Deep Learning Predicts the Molecular Endometrial Cancer Classification from H&E Images: A Combined Analysis of the PORTEC Randomized Clinical Trials' (submitted).
 
 im4MEC is a deep-learning model for molecular classification of Endometrial Cancer using the morphological features encoded in H&E images. It uses self-supervised learning (SSL) to get histopathology domain specific feature representation of tiles, followed by attention-mechanism to identify the tiles of high importance towards molecular classification of the Whole Slide Image. For these highly attended tiles, it obtains the cell counts and morphometric features to get human-interpretable features associated with each molecular class. 
+![im4MEC pipeline](https://user-images.githubusercontent.com/55097881/180487793-8c31ed08-fc5e-4d7c-99c3-a04dbe18601e.png)
+
 
 # Install dependencies
 Due to issues with OpenSlide dependencies ([like this one with pixman](https://github.com/mahmoodlab/CLAM/issues/13#issuecomment-690327553)) it is recommended to install the project's dependencies using the conda `environment.yml` rather than individually `pip install`-ing the dependencies.
