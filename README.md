@@ -1,7 +1,7 @@
 # im4MEC: Image-based prediction of the Molecular Endometrial Cancer classification 
 ![logo](docs/logo.png)
 
-Code for the **im4MEC** model described in the ([preprint](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4144537)) 'Interpretable deep learning model to predict the molecular classification of endometrial cancer from H&E whole slide images: a combined analysis of the PORTEC randomised trials and clinical cohorts' (submitted).
+Code for the **im4MEC** model described in the ([preprint](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4144537)) 'Interpretable deep learning model to predict the molecular classification of endometrial cancer from H&E whole slide images: a combined analysis of the PORTEC randomised trials and clinical cohorts' (**in press**).
 
 im4MEC is a deep-learning model for slide-level molecular classification of Endometrial Cancer using the morphological features encoded in H&E whole slide images. It uses self-supervised learning (SSL) to get histopathology domain specific feature representation of tiles, followed by attention-mechanism to identify the tiles with morphological features of high importance towards molecular classification of the Whole Slide Image. im4MEC is interpretable and indentifies morpho-molecular correlates in endometrial cancer. 
 
