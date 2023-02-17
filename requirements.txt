@@ -1,5 +1,4 @@
 pillow~=9.3.0
-zlib~=1.2.13
 gettext~=0.21.0
 numpy~=1.23.5
 pip~=22.3.1
