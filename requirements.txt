@@ -2,7 +2,6 @@ pillow~=9.3.0
 python-gettext~=4.1
 numpy~=1.22.4
 wheel~=0.37.1
-openssl~=1.1.1
 tornado~=6.2
 six~=1.16.0
 setuptools~=61.2.0
