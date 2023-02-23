@@ -500,7 +500,7 @@ def main(args):
     print(f"=> Validating on {len(val_split)} samples")
 
     base_hparams = dict(
-        sampling_method="random",
+        sampling_method="balanced",
         max_epochs=100,
         earlystop_patience=20,
         earlystop_min_epochs=20,
