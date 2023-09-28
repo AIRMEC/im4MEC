@@ -320,8 +320,6 @@ def run_train_eval_loop(
             metric_dict = {
                 "epoch": epoch,
                 "val_loss": val_loss,
-                "val_inst_loss": 0,
-                "val_composite_loss": 0,
                 "val_auc": val_avg_auc,
                 "trainable_params": n_trainable_params,
             }
