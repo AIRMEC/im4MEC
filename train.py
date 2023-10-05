@@ -388,7 +388,7 @@ def define_data_sampling(train_split, val_split, method, workers):
         train_loader = DataLoader(
             dataset=train_split,
             batch_size=1,  # model expects one bag of features at the time.
-            shuffle=False,
+            shuffle=True,
             collate_fn=collate,
             num_workers=workers,
             pin_memory=True,
@@ -409,7 +409,7 @@ def define_data_sampling(train_split, val_split, method, workers):
             # Use the weighted sampler using the precomputed sample weights.
             # Note that replacement is true by default, so
             # some slides of rare classes will be sampled multiple times per epoch.
-            shuffle=False,
+            shuffle=True,
             sampler=WeightedRandomSampler(sample_weights, len(sample_weights)),
             collate_fn=collate,
             num_workers=workers,
