@@ -409,7 +409,6 @@ def define_data_sampling(train_split, val_split, method, workers):
             # Use the weighted sampler using the precomputed sample weights.
             # Note that replacement is true by default, so
             # some slides of rare classes will be sampled multiple times per epoch.
-            shuffle=True,
             sampler=WeightedRandomSampler(sample_weights, len(sample_weights)),
             collate_fn=collate,
             num_workers=workers,
